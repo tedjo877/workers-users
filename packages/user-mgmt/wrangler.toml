@@ -8,17 +8,17 @@ binding = "sessionService"
 service = "session-state"
 
 [[d1_databases]]
-binding = "usersDB"
+binding = "web-dor"
 database_name = "users"
-database_id = "08d1a683-e910-43c4-bce1-918319e23e7f"
+database_id = "c1e0dccd-a96e-438d-8efa-1baca59d3b54"
 
 [vars]
 EMAIL_FROM = "noreply@justblackmagic.com"
 EMAIL_FROM_NAME = "Black Magic Consulting"
 
 EMAIL_DKIM_SELECTOR = "mailchannels"
-EMAIL_DKIM_DOMAIN = "justblackmagic.com"
-FORGOT_PASSWORD_URL = "https://account-pages.tools.justblackmagic.com/forgot-password-reset.html"
+EMAIL_DKIM_DOMAIN = "c-bnn.xyz"
+FORGOT_PASSWORD_URL = "https://account-pages.tools.x-bnn.xyz/forgot-password-reset.html"
 TOKEN_VALID_MINUTES = 60
 
 [dev]
