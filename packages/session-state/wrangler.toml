@@ -3,8 +3,8 @@ main = "src/index.ts"
 compatibility_date = "2024-01-17"
 
 [[kv_namespaces]]
-binding = "sessionstore"
-id = "988f705000cb4618bed4bc878d9d618e"
+binding = "TELEGRAM_KV"
+id = "6334b3e8bf42431e810bce5ccdcac992"
 
 [dev]
 port = 51511
